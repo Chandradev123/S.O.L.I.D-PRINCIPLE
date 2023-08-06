@@ -1,4 +1,5 @@
 //open for extention closed for modification
+// we stop ourselves from modifying existing code and causing potential new bugs in an otherwise happy application.
 interface val_comp
 {
     int compare(int n1,int n2);
